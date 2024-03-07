@@ -2,6 +2,29 @@
 
 
 
+## v1.0.0 (2024-03-07)
+
+### Breaking
+
+* feat: FOO=baz
+
+BREAKING CHANGE: foobarbaz ([`d909c54`](https://github.com/dag-hammarskjold-library/ghatest/commit/d909c54d837b8bdd79c8909bcf5e6561e7f5b9e7))
+
+### Unknown
+
+* feat (config): add FOO=bar
+
+BREAKING CHANGE: try again to make a major release ([`4ec9aec`](https://github.com/dag-hammarskjold-library/ghatest/commit/4ec9aecf6db8e2c150b1eaf0e048a518b1e1db13))
+
+* Merge pull request #2 from dag-hammarskjold-library/run-tests
+
+BREAKING CHANGE: Update credentials ([`6a8f3a3`](https://github.com/dag-hammarskjold-library/ghatest/commit/6a8f3a3f828db0162259012c5b34c08483d73a3d))
+
+* BREAKING CHANGE: Update credentials
+
+update to trigger major version bump ([`2858591`](https://github.com/dag-hammarskjold-library/ghatest/commit/2858591196713898121f2f516402ac9ff579f575))
+
+
 ## v0.2.0 (2024-03-07)
 
 ### Feature
