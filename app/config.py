@@ -5,6 +5,7 @@ class ProductionConfig(object):
     TESTING = False
 class DevelopmentConfig(ProductionConfig):
     CRED = "Development Credential"
+    FOO = "baz"
     DEBUG = True
     TESTING = False
 class AcceptanceTestingConfig(ProductionConfig):
