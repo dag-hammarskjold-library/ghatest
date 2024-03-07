@@ -2,6 +2,25 @@
 
 
 
+## v0.2.0 (2024-03-07)
+
+### Feature
+
+* feat: add tests ([`ffe6d65`](https://github.com/dag-hammarskjold-library/ghatest/commit/ffe6d65ea83159426e1ce535b05db180e77f7d3d))
+
+### Fix
+
+* fix: python version in tests ([`f8a6e33`](https://github.com/dag-hammarskjold-library/ghatest/commit/f8a6e33ae4a520852441dcffa6ab5d847357da38))
+
+### Unknown
+
+* Merge pull request #1 from dag-hammarskjold-library/run-tests
+
+add tests and action to automate tests ([`74cff47`](https://github.com/dag-hammarskjold-library/ghatest/commit/74cff4778ef00716388dad9f044f70580381bf48))
+
+* add tests and action to automate tests ([`98dbe7c`](https://github.com/dag-hammarskjold-library/ghatest/commit/98dbe7c55631ab2cc5d19b97cfdd747723eefd3a))
+
+
 ## v0.1.0 (2024-03-07)
 
 ### Feature
