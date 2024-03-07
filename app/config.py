@@ -1,5 +1,6 @@
 class ProductionConfig(object):
     CRED = "Production Credential 2"
+    FOO = "bar"
     DEBUG = False
     TESTING = False
 class DevelopmentConfig(ProductionConfig):
