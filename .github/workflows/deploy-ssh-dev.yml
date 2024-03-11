@@ -24,6 +24,6 @@ jobs:
               # Now we have got the access of EC2 and we will start the deploy .
               cd /var/www/ghatest &&
               sudo su www -c "git fetch && git checkout ${GITHUB_REF}" &&
-              sudo su www -c "source venv/bin/activate && pip uninstall -yr requirements.txt && pip install -r requirements.txt"
+              sudo su www -c "source venv/bin/activate && pip uninstall -yr requirements.txt && pip install -r requirements.txt && pip install -r requirements-deploy.txt"
               sudo systemctl restart ghatest.service
               '
