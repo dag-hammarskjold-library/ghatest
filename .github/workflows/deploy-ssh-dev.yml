@@ -20,10 +20,12 @@ jobs:
         run: |
           echo "$PRIVATE_KEY" > private_key && chmod 600 private_key
           ssh -o StrictHostKeyChecking=no -i private_key ${USER_NAME}@${HOSTNAME} '
-
-              # Now we have got the access of EC2 and we will start the deploy .
-              cd /var/www/ghatest &&
-              sudo su www -c "git fetch && git checkout ${GITHUB_REF}" &&
-              sudo su www -c "source venv/bin/activate && pip uninstall -yr requirements.txt && pip install -r requirements.txt && pip install -r requirements-deploy.txt"
+              cd /var/www/ghatest && 
+              sudo su www -c "git fetch" && 
+              sudo su www -c "git checkout ${GITHUB_REF_NAME}" &&
+              sudo su www -c "source venv/bin/activate" && 
+              sudo su www -c "pip uninstall -yr requirements.txt" && 
+              sudo su www -c "pip install -r requirements.txt" && 
+              sudo su www -c "pip install gunicorn" && 
               sudo systemctl restart ghatest.service
               '
